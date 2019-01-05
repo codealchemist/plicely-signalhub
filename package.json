@@ -1,0 +1,28 @@
+{
+  "name": "plicely-signalhub",
+  "version": "1.0.0",
+  "description": "Signaling server for Plicely.",
+  "main": "index.js",
+  "scripts": {
+    "start": "signalhub listen $PORT",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codealchemist/plicely-signalhub.git"
+  },
+  "keywords": [
+    "signal",
+    "webrtc",
+    "server"
+  ],
+  "author": "Alberto Miranda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/codealchemist/plicely-signalhub/issues"
+  },
+  "homepage": "https://github.com/codealchemist/plicely-signalhub#readme",
+  "dependencies": {
+    "signalhub": "^4.9.0"
+  }
+}
